@@ -1,5 +1,13 @@
-<h1>Active link backgroung changes</h1>
-    <a routerLink="./login" routerLinkActive="active">LOGIN </a>
-    <a routerLink="./logot" routerLinkActive="active">LOGOUT</a>
-  
-    
+<div>
+  <app-header></app-header>
+
+  <h1>CRUD SITE</h1>
+  <nav>
+    <a routerLink="/client/list" routerLinkActive="active">CLIENTS LIST</a>
+    <a routerLink="/client/add" routerLinkActive="active">ADD CLIENTS</a>
+    <a routerLink="/client/edit" routerLinkActive="active">EDITCLIENTS</a>
+  </nav>
+
+  <app-footer></app-footer>
+</div>
+<router-outlet></router-outlet>

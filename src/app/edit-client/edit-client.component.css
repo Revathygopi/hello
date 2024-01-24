@@ -1,0 +1,36 @@
+ h2 {
+     text-align: center;
+     color: darkslateblue;
+ }
+
+ form {
+     text-align: center;
+ }
+
+ p {
+     text-align: center;
+     color: darkslateblue;
+ }
+
+ .edit-information input {
+     margin: 15px;
+     padding: 3px;
+ }
+
+ .edit-information input:hover {
+     background-color: cornflowerblue;
+ }
+
+ .edit-information button {
+     padding: 5px;
+     margin: 10px;
+     color: rgb(252, 20, 252);
+ }
+
+ .edit-information button:hover {
+     background-color: rgb(255, 127, 191);
+ }
+
+ div {
+     background-color: lightslategray;
+ }

@@ -1,0 +1,31 @@
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+.client-information input {
+    margin: 15px;
+    padding: 3px;
+}
+
+.client-information input:hover {
+    background-color: cadetblue;
+}
+
+.client-information button {
+    padding: 5px;
+    margin: 10px;
+    color: deeppink;
+}
+
+.client-information button:hover {
+    background-color: aquamarine;
+}
+
+div {
+    background-color: rgb(113, 165, 159);
+}

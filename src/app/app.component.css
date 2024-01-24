@@ -1,13 +1,35 @@
-h1{
+body {
+    margin: 0px;
+
+}
+
+h1 {
     text-align: center;
-}
-a{
-    margin-left:20rem;
-    padding:20px;
+    color: #db158f;
 }
 
-.active{
-    background-color: blue;
-    color:chartreuse;
+nav a {
+    display: inline-block;
+    margin: 50px;
 
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 250px;
+    margin-left: 600px;
+    padding: 20px;
+    background: linear-gradient(#13bfd6, #d46dad, #1b5c31);
+    border-radius: 10px;
+
+}
+
+nav a.active {
+    background-color: aqua;
+    color: chartreuse;
+
+}
+
+div {
+    background-color: rgb(39, 92, 99);
 }
